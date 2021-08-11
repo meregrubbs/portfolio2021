@@ -4,29 +4,30 @@ import alicePortfolio from '../../images/portfolio-images/portfolio-alice.png';
 import maressaPortfolio from '../../images/portfolio-images/portfolio-maressa.png';
 import arrowBlack from '../../images/icon-downarrow-black.png';
 
-// data
-const sampleWork = [
-  {
-    label: 'Case Study',
-    title: 'Alice Dubin Media',
-    description: 'An online portfolio showcasing professional journalism work',
-    tags: 'UI/UX design • Front-end development • Custom Wordpress theme',
-    img: alicePortfolio,
-    linkTo: 'portfolio-alice'
-  },
-  {
-    label: 'Case Study',
-    title: 'Maressa Brown',
-    description:
-      'A professional portfolio for a freelance journalist, editor, author and astrologer',
-    tags: 'UI/UX design • Front-end development • Custom Wordpress theme',
-    img: maressaPortfolio,
-    linkTo: 'portfolio-maressa'
-  }
-];
-
 // markup
 const Portfolio = () => {
+  // data
+  const sampleWork = [
+    {
+      label: 'Case Study',
+      title: 'Alice Dubin Media',
+      description:
+        'An online portfolio showcasing professional journalism work',
+      tags: 'UI/UX design • Front-end development • Custom Wordpress theme',
+      img: alicePortfolio,
+      linkTo: 'portfolio-alice'
+    },
+    {
+      label: 'Case Study',
+      title: 'Maressa Brown',
+      description:
+        'A professional portfolio for a freelance journalist, editor, author and astrologer',
+      tags: 'UI/UX design • Front-end development • Custom Wordpress theme',
+      img: maressaPortfolio,
+      linkTo: 'portfolio-maressa'
+    }
+  ];
+
   return (
     <section className='portfolio'>
       <h1 className='section-title'>Portfolio</h1>
