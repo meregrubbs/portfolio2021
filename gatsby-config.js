@@ -13,7 +13,6 @@ module.exports = {
         trackingId: 'UA-179308532-1'
       }
     },
-    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
