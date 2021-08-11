@@ -14,7 +14,7 @@ const PortfolioTemplate = props => {
 
       <div className='portfolio-page-intro'>
         <div className='portfolio-page-intro-text'>
-          <h1>{data.title}</h1>
+          <h1>{props.data.title}</h1>
           <p className='subtitle'>{data.subtitle}</p>
           <h3>Services</h3>
           {data.services.map(service => (
