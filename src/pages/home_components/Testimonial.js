@@ -30,7 +30,7 @@ const testimonials = [
 ];
 
 // markup
-const Testimonials = () => {
+const Testimonial = () => {
   return (
     <section className='testimonials'>
       <h1 className='section-title'>Testimonials</h1>
@@ -54,4 +54,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Testimonial;
