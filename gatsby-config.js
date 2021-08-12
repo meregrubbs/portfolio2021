@@ -6,7 +6,6 @@ module.exports = {
       'Meredith Grubbs is a freelance web designer and developer based in Durango, CO. She specializes in designing websites for small businesses.'
   },
   plugins: [
-    'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
