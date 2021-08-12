@@ -1,6 +1,6 @@
 import * as React from 'react';
-import Header from '../header_footer/Header';
-import downArrow from '../../images/icon-downarrow.png';
+import Header from './Header';
+import downArrow from '../images/icon-downarrow.png';
 
 const Hero = () => {
   return (

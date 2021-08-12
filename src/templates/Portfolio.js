@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { Link } from '@reach/router';
-import alicePortfolio from '../../images/portfolio-images/portfolio-alice.png';
-import maressaPortfolio from '../../images/portfolio-images/portfolio-maressa.png';
-import arrowBlack from '../../images/icon-downarrow-black.png';
+import { Link } from 'gatsby';
+import alicePortfolio from '../images/portfolio-images/portfolio-alice.png';
+import maressaPortfolio from '../images/portfolio-images/portfolio-maressa.png';
+import arrowBlack from '../images/icon-downarrow-black.png';
 
 // markup
 const Portfolio = () => {

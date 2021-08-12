@@ -1,5 +1,5 @@
 import * as React from 'react';
-import PortfolioTemplate from './portfolio_components/PortfolioTemplate';
+import PortfolioTemplate from '../templates/PortfolioTemplate';
 // images
 import maressaPortfolioImg from '../images/portfolio-images/portfolio-maressa.png';
 import maressaFeatured from '../images/case-study-images/maressa/maressa-featured-articles.png';
@@ -69,12 +69,12 @@ const PortfolioMaressa = () => {
   ];
 
   return (
-    <section className='portfolio-page'>
+    <main className='portfolio-page'>
       <PortfolioTemplate
         data={maressaPortfolioIntroData}
         casestudy={maressaCaseStudy}
       />
-    </section>
+    </main>
   );
 };
 

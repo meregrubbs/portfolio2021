@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as emailjs from 'emailjs-com';
-import Header from './header_footer/Header';
-import Footer from './header_footer/Footer';
+import Header from '../templates/Header';
+import Footer from '../templates/Footer';
 import checkmark from '../images/checkmark.png';
 
 // markup
@@ -47,7 +47,7 @@ const Contact = () => {
   }
 
   return (
-    <section className='contact'>
+    <main className='contact'>
       <Header />
 
       <div className='contact-content'>
@@ -149,7 +149,7 @@ const Contact = () => {
       </div>
 
       <Footer />
-    </section>
+    </main>
   );
 };
 
