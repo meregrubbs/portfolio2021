@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from '@reach/router';
 import megLogo from '../../images/meg-logo-1.png';
 import '../../css/typography.css';
 

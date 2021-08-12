@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from '@reach/router';
 import Header from '../header_footer/Header';
 import Footer from '../header_footer/Footer';
 

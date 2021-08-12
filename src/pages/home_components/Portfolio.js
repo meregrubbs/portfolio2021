@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from '@reach/router';
 import alicePortfolio from '../../images/portfolio-images/portfolio-alice.png';
 import maressaPortfolio from '../../images/portfolio-images/portfolio-maressa.png';
 import arrowBlack from '../../images/icon-downarrow-black.png';
