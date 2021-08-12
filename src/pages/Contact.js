@@ -3,6 +3,7 @@ import * as emailjs from 'emailjs-com';
 import Header from '../templates/Header';
 import Footer from '../templates/Footer';
 import checkmark from '../images/checkmark.png';
+import '../css/index.css';
 
 // markup
 const Contact = () => {

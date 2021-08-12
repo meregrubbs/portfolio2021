@@ -3,7 +3,6 @@ import Hero from '../templates/Hero';
 import Portfolio from '../templates/Portfolio';
 import Testimonials from '../templates/ClientTestimonials';
 import Footer from '../templates/Footer';
-
 import '../css/index.css';
 
 const IndexPage = () => {

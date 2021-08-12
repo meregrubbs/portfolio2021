@@ -1,5 +1,6 @@
 import * as React from 'react';
 import PortfolioTemplate from '../templates/PortfolioTemplate';
+import '../css/index.css';
 // images
 import maressaPortfolioImg from '../images/portfolio-images/portfolio-maressa.png';
 import maressaFeatured from '../images/case-study-images/maressa/maressa-featured-articles.png';
