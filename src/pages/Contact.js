@@ -49,6 +49,7 @@ const Contact = () => {
 
   return (
     <main className='contact'>
+      <title>Meredith Grubbs | Web Designer and Developer</title>
       <Header />
 
       <div className='contact-content'>

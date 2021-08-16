@@ -71,6 +71,7 @@ const PortfolioMaressa = () => {
 
   return (
     <main className='portfolio-page'>
+      <title>Meredith Grubbs | Web Designer and Developer</title>
       <PortfolioTemplate
         data={maressaPortfolioIntroData}
         casestudy={maressaCaseStudy}

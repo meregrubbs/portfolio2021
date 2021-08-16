@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import Header from './Header';
-import Footer from './Footer';
+import Header from '../templates/Header';
+import Footer from '../templates/Footer';
 
 // markup
 const PortfolioTemplate = props => {
