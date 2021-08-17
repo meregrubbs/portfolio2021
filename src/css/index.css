@@ -560,6 +560,7 @@ nav {
 .contact-form {
   display: flex;
   flex-direction: column;
+  -webkit-appearance: none;
   margin-top: var(--sub-item-margin-top);
 }
 .contact-form label {
