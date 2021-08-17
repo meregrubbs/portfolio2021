@@ -561,6 +561,7 @@ nav {
 }
 .contact-form #submit-button {
   transform: translateX(-43%);
+  font-size: 1rem;
   margin-top: var(--sub-item-margin-top);
   cursor: pointer;
 }
