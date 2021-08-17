@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmeg_portfolio_2021=self.webpackChunkmeg_portfolio_2021||[]).push([[772],{2893:function(e,t,n){n.r(t);var l=n(7294);t.default=function(){return l.createElement("main",null,l.createElement("h1",null,"this is a test"))}}}]);
+//# sourceMappingURL=component---src-pages-worktogether-js-4949ad95e0ea4ea23526.js.map

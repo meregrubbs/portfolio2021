@@ -15,7 +15,7 @@ const Portfolio = () => {
         'An online portfolio showcasing professional journalism work',
       tags: 'UI/UX design • Front-end development • Custom Wordpress theme',
       img: alicePortfolio,
-      linkTo: '/portfolio-alice/'
+      linkTo: '/portfolio/alice'
     },
     {
       label: 'Case Study',
@@ -24,7 +24,7 @@ const Portfolio = () => {
         'A professional portfolio for a freelance journalist, editor, author and astrologer',
       tags: 'UI/UX design • Front-end development • Custom Wordpress theme',
       img: maressaPortfolio,
-      linkTo: '/portfolio-maressa/'
+      linkTo: '/portfolio/maressa'
     }
   ];
 
