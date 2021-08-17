@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'gatsby';
 import Hero from '../templates/Hero';
 import Portfolio from '../templates/Portfolio';
 import Testimonials from '../templates/ClientTestimonials';
@@ -10,6 +11,7 @@ const IndexPage = () => {
     <main>
       <title>Meredith Grubbs | Web Designer and Developer</title>
       <Hero />
+      <Link to='/worktogether'>Test</Link>
       <Portfolio />
       <Testimonials />
       <Footer />

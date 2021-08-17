@@ -7,6 +7,7 @@ exports.components = {
   "component---src-pages-contact-js": () => import("./../../../src/pages/contact.js" /* webpackChunkName: "component---src-pages-contact-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-portfolio-alice-js": () => import("./../../../src/pages/portfolio-alice.js" /* webpackChunkName: "component---src-pages-portfolio-alice-js" */),
-  "component---src-pages-portfolio-maressa-js": () => import("./../../../src/pages/portfolio-maressa.js" /* webpackChunkName: "component---src-pages-portfolio-maressa-js" */)
+  "component---src-pages-portfolio-maressa-js": () => import("./../../../src/pages/portfolio-maressa.js" /* webpackChunkName: "component---src-pages-portfolio-maressa-js" */),
+  "component---src-pages-worktogether-js": () => import("./../../../src/pages/worktogether.js" /* webpackChunkName: "component---src-pages-worktogether-js" */)
 }
 
