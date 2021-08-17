@@ -30,7 +30,9 @@ html {
 main {
   display: flex;
   flex-direction: column;
+  position: relative;
   max-width: 1200px;
+  overflow-x: hidden;
   margin: 0 auto;
   padding: 1.333rem 4rem;
 }
