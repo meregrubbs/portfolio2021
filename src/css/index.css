@@ -95,6 +95,7 @@ textarea:focus {
   border-width: 3px;
   border-image: var(--gradient-image) 8 stretch;
   -webkit-border-image: var(--gradient-image) 8 stretch;
+  -webkit-transform: translate3d(0, 0, 0);
   font-family: 'HK Grotesk Bold';
   text-decoration: none;
   color: white;
@@ -122,6 +123,7 @@ textarea:focus {
 .button:hover:before,
 .button:active:before {
   -webkit-border-image: var(--gradient-image) 8 fill;
+  -webkit-transform: translate3d(0, 0, 0);
   opacity: 1;
 }
 /* Chrome 29+ */
