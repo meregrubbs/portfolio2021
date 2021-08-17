@@ -11,7 +11,7 @@ const Header = () => {
         <img className='logo' src={megLogo} alt='Meredith Grubbs Logo' />
       </Link>
 
-      <Link className='button hero-button' to='/worktogether'>
+      <Link className='button hero-button' to='/contact'>
         Let's Work Together
       </Link>
     </nav>

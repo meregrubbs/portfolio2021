@@ -53,7 +53,7 @@ const PortfolioTemplate = props => {
         ))}
       </div>
 
-      <Link className='button button-end' to='/worktogether'>
+      <Link className='button button-end' to='/contact'>
         Let's Work Together
       </Link>
 

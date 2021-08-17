@@ -177,18 +177,6 @@ li {
   background-size: cover;
   z-index: -2;
 }
-.hero:after {
-  content: '';
-  position: absolute;
-  top: -2.333rem;
-  right: -4.8rem;
-  bottom: 0;
-  left: -4.8rem;
-  background: black;
-  mix-blend-mode: multiply;
-  opacity: 12%;
-  z-index: -2;
-}
 
 /* Nav */
 nav {
@@ -704,9 +692,6 @@ nav {
   .hero:before {
     height: 28rem;
     background-position: 80%;
-  }
-  .hero:after {
-    display: none;
   }
   .hero:before {
     background-position: center;
