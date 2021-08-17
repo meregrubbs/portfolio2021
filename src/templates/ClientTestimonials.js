@@ -47,7 +47,7 @@ const ClientTestimonials = () => {
           </div>
         </div>
       ))}
-      <Link className='button hero-button' to='/contact'>
+      <Link className='button hero-button' to='/worktogether'>
         Let's Work Together
       </Link>
     </section>

@@ -172,8 +172,8 @@ li {
   right: -4.8rem;
   bottom: 0;
   left: -4.8rem;
-  background-image: url('../images/portfolio-hero.png');
-  background-position: top left;
+  background-image: url('../images/portfolio-hero-1.png');
+  background-position: top;
   background-size: cover;
   z-index: -2;
 }
