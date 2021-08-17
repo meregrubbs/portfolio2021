@@ -560,7 +560,6 @@ nav {
 .contact-form {
   display: flex;
   flex-direction: column;
-  -webkit-appearance: none;
   margin-top: var(--sub-item-margin-top);
 }
 .contact-form label {
@@ -574,6 +573,7 @@ nav {
 }
 .contact-form input,
 .contact-form textarea {
+  -webkit-appearance: none;
   background-color: var(--background-color-grey);
   border: none;
   border-radius: 1px;
