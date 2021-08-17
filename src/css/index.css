@@ -94,6 +94,7 @@ textarea:focus {
   border-style: solid;
   border-width: 3px;
   border-image: var(--gradient-image) 8 stretch;
+  -webkit-border-image: var(--gradient-image) 8 stretch;
   font-family: 'HK Grotesk Bold';
   text-decoration: none;
   color: white;
@@ -109,6 +110,7 @@ textarea:focus {
   bottom: -3px;
   left: -3px;
   border-image: var(--gradient-image) 8 fill;
+  -webkit-border-image: var(--gradient-image) 8 fill;
   opacity: 0;
   z-index: -1;
   transition: 0.3s all;
