@@ -76,6 +76,9 @@ li {
 :focus-visible {
   outline-color: var(--text-color-pop);
 }
+input:focus {
+  outline: 3px solid var(--text-color-pop);
+}
 
 /* buttons */
 .button {
@@ -95,10 +98,10 @@ li {
 .button:before {
   content: '';
   position: absolute;
-  top: -1px;
-  right: -1px;
-  bottom: -1px;
-  left: -1px;
+  top: -3px;
+  right: -3px;
+  bottom: -3px;
+  left: -3px;
   border-image: var(--gradient-image) 8 fill;
   opacity: 0;
   z-index: -1;
@@ -112,6 +115,16 @@ li {
 .button:hover:before,
 .button:active:before {
   opacity: 1;
+  inset: 0;
+}
+@-moz-document url-prefix() {
+  .button:active:before,
+  .button:hover:before {
+    top: -3px;
+    right: -3px;
+    bottom: -3px;
+    left: -3px;
+  }
 }
 
 /* Section Title */
