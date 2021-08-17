@@ -82,7 +82,8 @@ li {
   position: relative;
   width: fit-content;
   background-color: transparent;
-  border: 3px solid transparent;
+  border-style: solid;
+  border-width: 3px;
   border-image: var(--gradient-image) 8 stretch;
   font-family: 'HK Grotesk Bold';
   text-decoration: none;
@@ -98,7 +99,7 @@ li {
   right: -1px;
   bottom: -1px;
   left: -1px;
-  border-image: var(--gradient-image) 4 fill;
+  border-image: var(--gradient-image) 8 fill;
   opacity: 0;
   z-index: -1;
   transition: 0.3s all;
