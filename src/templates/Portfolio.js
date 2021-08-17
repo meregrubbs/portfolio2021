@@ -45,12 +45,15 @@ const Portfolio = () => {
           <div className='portfolio-img'>
             <img src={sample.img} alt='' />
           </div>
-          <div className='case-study-link'>
-            <span>View case study</span>
-            <div className='case-study-arrow'>
-              <img src={arrowBlack} alt='' />
+
+          <Link to={sample.linkTo}>
+            <div className='case-study-link'>
+              <span>View case study</span>
+              <div className='case-study-arrow'>
+                <img src={arrowBlack} alt='' />
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
       ))}
     </section>
