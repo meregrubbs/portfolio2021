@@ -20,7 +20,8 @@ const PortfolioMaressa = () => {
       'Custom Wordpress theme',
       'Hosting & Domain setup'
     ],
-    website: 'www.maressabrown.com',
+    websiteName: 'www.maressabrown.com',
+    websiteURL: 'https://maressabrown.com',
     img: maressaPortfolioImg
   };
 

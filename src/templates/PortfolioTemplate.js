@@ -22,11 +22,11 @@ const PortfolioTemplate = props => {
           ))}
           <a
             className='website'
-            href={data.website}
+            href={data.websiteURL}
             target='_blank'
             rel='noreferrer '
           >
-            {data.website}
+            {data.websiteName}
           </a>
         </div>
         <div className='portfolio-page-intro-img'>

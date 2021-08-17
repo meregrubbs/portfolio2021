@@ -20,7 +20,8 @@ const PortfolioAlice = () => {
       'Custom Wordpress theme',
       'Hosting & Domain setup'
     ],
-    website: 'www.alicedubin.com',
+    websiteName: 'www.alicedubin.com',
+    websiteURL: 'https://alicedubin.com',
     img: alicePortfolioImg
   };
 
