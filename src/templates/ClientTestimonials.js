@@ -41,7 +41,7 @@ const ClientTestimonials = () => {
           </div>
 
           <div className='testimonial-text'>
-            <p className='text'>{testimonial.text}</p>
+            <p className='text'>"{testimonial.text}"</p>
             <p className='name'>{testimonial.name}</p>
             <p className='title'>{testimonial.title}</p>
           </div>
