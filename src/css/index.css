@@ -747,6 +747,6 @@ nav {
     margin-bottom: 0.2rem;
   }
   .portfolio-text .title:before {
-    background-position: center -40px;
+    display: none;
   }
 }
