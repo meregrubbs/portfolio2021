@@ -112,14 +112,14 @@ textarea:focus {
   border-image: var(--gradient-image) 8 fill;
   opacity: 0%;
   z-index: -1;
-  transition: opacity 0.3s;
+  transition: all 0.3s;
+}
+.button:hover:before {
+  opacity: 100%;
 }
 .button:hover {
   color: white !important;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-.button:hover:before {
-  opacity: 100%;
 }
 
 /* Section Title */
