@@ -754,9 +754,6 @@ nav {
     margin-right: 0;
     margin-bottom: 2rem;
   }
-  .casestudy-section:first-of-type {
-    margin-top: var(--single-item-margin-top);
-  }
   .casestudy-section {
     margin-top: var(--mobile-single-item-margin-top);
   }
