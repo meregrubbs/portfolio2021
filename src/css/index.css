@@ -94,12 +94,13 @@ textarea:focus {
   background-color: transparent;
   border-style: solid;
   border-width: 3px;
-  border-image: var(--gradient-image) 8 stretch;
+  border-image: var(--gradient-image);
+  border-image-slice: 8;
+  border-image-width: 3px;
   font-family: 'HK Grotesk Bold';
   text-decoration: none;
   color: white;
   padding: 0.667em 1em;
-  z-index: 1;
   transition: all 0.3s;
 }
 .button:before {
@@ -109,7 +110,10 @@ textarea:focus {
   right: -2px;
   bottom: -2px;
   left: -2px;
-  border-image: var(--gradient-image) 8 fill;
+  background-image: var(--gradient-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   opacity: 0%;
   z-index: -1;
   transition: all 0.3s;
