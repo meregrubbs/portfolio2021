@@ -757,6 +757,9 @@ nav {
   .casestudy-section {
     margin-top: var(--mobile-single-item-margin-top);
   }
+  .casestudy-section:first-of-type {
+    margin-top: 4em;
+  }
   .casestudy-section .image-group {
     margin-top: 4rem;
   }
