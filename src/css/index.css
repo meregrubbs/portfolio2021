@@ -100,15 +100,15 @@ textarea:focus {
   color: white;
   padding: 0.667em 1em;
   z-index: 1;
-  transition: all 0.3s ease;
+  transition: all 0.3s;
 }
 .button:before {
   content: '';
   position: absolute;
-  top: -2.5px;
-  right: -2.5px;
-  bottom: -2.5px;
-  left: -2.5px;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
   border-image: var(--gradient-image) 8 fill;
   opacity: 0%;
   z-index: -1;
