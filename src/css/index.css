@@ -751,7 +751,7 @@ nav {
   }
   .hero-text {
     text-shadow: none;
-    margin-top: 6rem;
+    margin-top: 9rem;
   }
   .hero-text h1 {
     line-height: 134%;
@@ -777,5 +777,17 @@ nav {
   .contact ::placeholder {
     color: var(--text-color);
     opacity: 70%;
+  }
+}
+
+@media (max-width: 419px) {
+  .hero-text {
+    margin-top: 8rem;
+  }
+}
+
+@media (max-width: 395px) {
+  .hero-text {
+    margin-top: 6rem;
   }
 }
