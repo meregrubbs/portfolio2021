@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as emailjs from 'emailjs-com';
-import Header from '../templates/Header';
+import ContactHeader from '../templates/ContactHeader';
 import Footer from '../templates/Footer';
 import checkmark from '../images/checkmark.png';
 import '../css/index.css';
@@ -50,7 +50,7 @@ const Contact = () => {
   return (
     <main className='contact'>
       <title>Meredith Grubbs | Web Designer and Developer</title>
-      <Header />
+      <ContactHeader />
 
       <div className='contact-content'>
         <h1>Project Briefing</h1>
