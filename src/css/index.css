@@ -758,7 +758,7 @@ nav {
     margin-top: var(--mobile-single-item-margin-top);
   }
   .casestudy-section:first-of-type {
-    margin-top: 4em;
+    margin-top: 4rem;
   }
   .casestudy-section .image-group {
     margin-top: 4rem;
