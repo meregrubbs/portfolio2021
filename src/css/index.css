@@ -7,7 +7,6 @@
   --background-color-grey: #fcfafc;
   --background-color-pop: #f8e8ff;
   --yellow: #ffaa0b;
-  --gradient-image: url(../images/button-gradient.png);
   --linear-gradient: linear-gradient(345deg, #b31aff, #ff006e, #ffaa0b);
   --smaller-text-size: 0.867em;
   --IBM-uppercase-letter-spacing: 0.9px;
@@ -356,19 +355,17 @@ nav {
 .portfolio-text .title {
   position: relative;
   width: fit-content;
+  line-height: 100%;
 }
 .portfolio-text .title:before {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: -4px;
   width: 100%;
-  height: 6px;
-  background: var(--gradient-image);
-  background-position: center -50px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 4px;
+  background: var(--linear-gradient);
   opacity: 0%;
-  transition: 0.3s all ease;
+  transition: opacity 0.3s ease;
 }
 .portfolio-text:hover .title:before {
   opacity: 100%;
@@ -422,10 +419,7 @@ nav {
   bottom: 0px;
   width: 100%;
   height: 3px;
-  background: var(--gradient-image);
-  background-position: center 80%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: var(--linear-gradient);
 }
 
 /*  */
