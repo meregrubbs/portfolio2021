@@ -708,6 +708,9 @@ nav {
   main {
     padding: 1.333rem 2.5rem;
   }
+  nav .button {
+    font-size: var(--smaller-text-size);
+  }
   .hero:before {
     background-position: 50%;
   }
@@ -777,7 +780,7 @@ nav {
   }
   .hero-text {
     text-shadow: none;
-    margin-top: 9rem;
+    margin-top: 8rem;
   }
   .hero-text h1 {
     line-height: 134%;
