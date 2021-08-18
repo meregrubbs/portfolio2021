@@ -8,6 +8,7 @@
   --background-color-pop: #f8e8ff;
   --yellow: #ffaa0b;
   --gradient-image: url(../images/button-gradient.png);
+  --linear-gradient: linear-gradient(345deg, #b31aff, #ff006e, #ffaa0b);
   --smaller-text-size: 0.867em;
   --IBM-uppercase-letter-spacing: 0.9px;
   --text-color: #11001a;
@@ -134,15 +135,52 @@ textarea:focus {
 } */
 
 .button {
-  border: var(--text-color-pop) 3px solid;
+  position: relative;
+  background: transparent;
   border-radius: 10px;
+  border: var(--yellow) 3px solid;
+  /* box-shadow: 0 0 0.5em 0 var(--yellow), inset 0 0 0.5em 0 var(--yellow); */
   font-family: 'HK Grotesk Bold';
   text-decoration: none;
-  color: white;
-  text-shadow: 0 0 1em white, 0 0 1em var(--text-color-pop);
-
+  color: var(--text-color);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  /* text-shadow: 0 0 0.45em currentColor, 0 0 0.125em var(--text-color-pop); */
   padding: 0.667em 1em;
   cursor: pointer;
+  transition: all 0.5s ease;
+}
+.hero .button {
+  color: white;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.button:before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: inherit;
+  background: rgb(255, 170, 11);
+  background: linear-gradient(
+    160deg,
+    rgba(255, 170, 11, 1) 0%,
+    rgba(238, 42, 10, 1) 50%,
+    rgba(179, 26, 255, 1) 100%
+  );
+  opacity: 0%;
+  z-index: -1;
+  transition: opacity 0.5s ease;
+}
+.button:hover:before {
+  opacity: 100%;
+}
+.button:hover {
+  border-color: transparent;
+  color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+.hero .button:hover {
+  text-shadow: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Section Title */
@@ -223,10 +261,6 @@ nav {
 .logo {
   width: 3.333rem;
   height: 3.333rem;
-}
-.hero-button {
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
 }
 .header-email {
   font-family: 'Public Sans', sans-serif;
@@ -440,8 +474,6 @@ nav {
   font-size: var(--smaller-text-size);
 }
 .testimonials .button {
-  color: black;
-  text-shadow: none;
   margin-top: var(--single-item-margin-top);
 }
 
@@ -475,8 +507,6 @@ nav {
 }
 .portfolio-page .button {
   align-self: center;
-  color: var(--text-color);
-  text-shadow: none;
 }
 .portfolio-page-intro-text {
   flex: 1;
@@ -559,10 +589,6 @@ nav {
 .contact {
   display: flex;
   flex-direction: column;
-}
-.contact .button {
-  color: var(--text-color);
-  text-shadow: none;
 }
 .contact-content {
   align-self: center;
