@@ -6,6 +6,7 @@
 :root {
   --background-color-grey: #fcfafc;
   --background-color-pop: #f8e8ff;
+  --yellow: #ffaa0b;
   --gradient-image: url(../images/button-gradient.png);
   --smaller-text-size: 0.867em;
   --IBM-uppercase-letter-spacing: 0.9px;
@@ -94,7 +95,7 @@ textarea:focus {
 }
 
 /* buttons */
-.button {
+/* .button {
   position: relative;
   width: fit-content;
   background-color: transparent;
@@ -130,6 +131,18 @@ textarea:focus {
 .button:hover {
   color: white !important;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+} */
+
+.button {
+  border: var(--text-color-pop) 3px solid;
+  border-radius: 10px;
+  font-family: 'HK Grotesk Bold';
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 1em white, 0 0 1em var(--text-color-pop);
+
+  padding: 0.667em 1em;
+  cursor: pointer;
 }
 
 /* Section Title */
@@ -712,7 +725,7 @@ nav {
 
 @media (max-width: 500px) {
   main {
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.8rem;
   }
   h1 {
     font-size: 2rem;
@@ -738,7 +751,7 @@ nav {
   }
   .hero-text {
     text-shadow: none;
-    margin-top: 11rem;
+    margin-top: 6rem;
   }
   .hero-text h1 {
     line-height: 134%;
