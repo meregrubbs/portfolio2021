@@ -350,7 +350,7 @@ nav {
   letter-spacing: 0.9px;
   text-transform: uppercase;
   color: var(--text-color-pop);
-  margin-bottom: -0.5em;
+  margin-bottom: -0.25em;
 }
 .portfolio-text .title {
   position: relative;
@@ -371,7 +371,7 @@ nav {
   opacity: 100%;
 }
 .portfolio-text .description {
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
 }
 .portfolio-text .tags {
   font-size: var(--smaller-text-size);
