@@ -8,7 +8,7 @@
   --background-color-pop: #f8e8ff;
   --yellow: #ffaa0b;
   --linear-gradient: linear-gradient(345deg, #b31aff, #ff006e, #ffaa0b);
-  --smaller-text-size: 0.867em;
+  --smaller-text-size: 0.8em;
   --IBM-uppercase-letter-spacing: 0.9px;
   --text-color: #11001a;
   --text-color-pop: #8800cc;
@@ -504,7 +504,6 @@ nav {
 }
 .portfolio-page-intro-text {
   flex: 1;
-  font-size: var(--smaller-text-size);
   margin-right: 2rem;
 }
 .portfolio-page-intro-text .subtitle {
@@ -519,12 +518,14 @@ nav {
   color: var(--text-color-pop);
 }
 .portfolio-page-intro-text .service {
+  font-size: var(--smaller-text-size);
   opacity: 70%;
 }
 .portfolio-page-intro-text p:last-of-type {
   margin-bottom: 2rem;
 }
 .portfolio-page-intro-text .website {
+  font-size: var(--smaller-text-size);
   text-decoration: underline;
   opacity: 70%;
 }
