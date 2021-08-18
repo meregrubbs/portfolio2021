@@ -580,6 +580,10 @@ nav {
   -webkit-box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.2);
   padding: 1rem 0.5rem;
 }
+.contact-form ::placeholder {
+  color: var(--text-color);
+  opacity: 50%;
+}
 .submit-container {
   display: flex;
 }
@@ -748,5 +752,9 @@ nav {
   }
   .portfolio-text .title:before {
     display: none;
+  }
+  .contact ::placeholder {
+    color: var(--text-color);
+    opacity: 70%;
   }
 }
