@@ -3,6 +3,7 @@ import PortfolioTemplate from '../../templates/PortfolioTemplate';
 import '../../css/index.css';
 // images
 import alicePortfolioImg from '../../images/portfolio-images/portfolio-alice.png';
+import alicePortfolioImgSmall from '../../images/portfolio-images/portfolio-alice-small.png';
 import casestudyMainPortfolioPageImg from '../../images/case-study-images/alice/alice-main-portfolio-page.jpg';
 import casestudyJournalism from '../../images/case-study-images/alice/alice-journalism.jpg';
 import casestudyContentMarketing from '../../images/case-study-images/alice/alice-content-marketing.jpg';
@@ -22,7 +23,8 @@ const PortfolioAlice = () => {
     ],
     websiteName: 'www.alicedubin.com',
     websiteURL: 'https://alicedubin.com',
-    img: alicePortfolioImg
+    img: alicePortfolioImg,
+    imgSrcSet: `${alicePortfolioImgSmall} 800w, ${alicePortfolio} 1200w`
   };
 
   const aliceCaseStudy = [

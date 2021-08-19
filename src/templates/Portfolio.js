@@ -17,7 +17,7 @@ const Portfolio = () => {
         'An online portfolio showcasing professional journalism work',
       tags: 'UI/UX design • Front-end development • Custom Wordpress theme',
       img: alicePortfolio,
-      imgSrcSet: `${alicePortfolioSmall}, ${alicePortfolio} 1.5x`,
+      imgSrcSet: `${alicePortfolioSmall} 800w, ${alicePortfolio} 1200w`,
       linkTo: '/portfolio/alice'
     },
     {
@@ -27,7 +27,7 @@ const Portfolio = () => {
         'A professional portfolio for a freelance journalist, editor, author and astrologer',
       tags: 'UI/UX design • Front-end development • Custom Wordpress theme',
       img: maressaPortfolio,
-      imgSrcSet: `${maressaPortfolioSmall}, ${maressaPortfolio} 1.5x`,
+      imgSrcSet: `${maressaPortfolioSmall} 800w, ${maressaPortfolio} 1200w`,
       linkTo: '/portfolio/maressa'
     }
   ];
