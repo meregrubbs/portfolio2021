@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Seo from '../templates/Seo';
+import SearchEngineOps from '../templates/SearchEngineOps';
 import * as emailjs from 'emailjs-com';
 import ContactHeader from '../templates/ContactHeader';
 import Footer from '../templates/Footer';
@@ -50,7 +50,7 @@ const Contact = () => {
 
   return (
     <main className='contact'>
-      <Seo />
+      <SearchEngineOps />
       <ContactHeader />
 
       <div className='contact-content'>

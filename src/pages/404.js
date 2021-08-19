@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import Seo from '../templates/Seo';
+import SearchEngineOps from '../templates/SearchEngineOps';
 import Header from '../templates/Header';
 import Footer from '../templates/Footer';
 import '../css/index.css';
@@ -8,7 +8,7 @@ import '../css/index.css';
 const NotFoundPage = () => {
   return (
     <main>
-      <Seo />
+      <SearchEngineOps />
       <Header />
       <div className='not-found'>
         <h1 className='section-title'>Page Not Found</h1>
