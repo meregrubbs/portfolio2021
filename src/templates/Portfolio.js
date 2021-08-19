@@ -33,13 +33,11 @@ const Portfolio = () => {
       <h1 className='section-title'>Portfolio</h1>
       {sampleWork.map(sample => (
         <div className='portfolio-item' key={sample.title}>
-          <Link to={sample.linkTo}>
-            <div className='portfolio-text'>
-              <p className='label'>{sample.label}:</p>
-              <h2 className='title'>{sample.title}</h2>
-              <p className='description'>{sample.description}</p>
-              <p className='tags'>{sample.tags}</p>
-            </div>
+          <Link to={sample.linkTo} className='portfolio-text'>
+            <p className='label'>{sample.label}:</p>
+            <h2 className='title'>{sample.title}</h2>
+            <p className='description'>{sample.description}</p>
+            <p className='tags'>{sample.tags}</p>
           </Link>
 
           <div className='portfolio-img'>
