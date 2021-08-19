@@ -45,7 +45,7 @@ const Portfolio = () => {
           </Link>
 
           <div className='portfolio-img'>
-            <img srcset={imgSrcSet} src={sample.img} alt='' />
+            <img srcset={sample.imgSrcSet} src={sample.img} alt='' />
           </div>
 
           <Link to={sample.linkTo}>
