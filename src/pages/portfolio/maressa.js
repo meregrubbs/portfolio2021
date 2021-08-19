@@ -2,7 +2,7 @@ import * as React from 'react';
 import PortfolioTemplate from '../../templates/PortfolioTemplate';
 import '../../css/index.css';
 // images
-import maressaPortfolioImg from '../../images/portfolio-images/portfolio-maressa.jpg';
+import maressaPortfolioImg from '../../images/portfolio-images/portfolio-maressa.png';
 import maressaFeatured from '../../images/case-study-images/maressa/maressa-featured-articles.jpg';
 import maressaPortfolio from '../../images/case-study-images/maressa/maressa-portfolio-images.jpg';
 import maressaSparkle from '../../images/case-study-images/maressa/maressa-sparkle.jpg';
