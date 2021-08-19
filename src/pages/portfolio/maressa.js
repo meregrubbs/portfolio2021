@@ -24,7 +24,7 @@ const PortfolioMaressa = () => {
     websiteName: 'www.maressabrown.com',
     websiteURL: 'https://maressabrown.com',
     img: maressaPortfolioImg,
-    imgSrcSet: `${maressaPortfolioImgSmall} 800w, ${maressaPortfolio} 1200w`
+    imgSrcSet: `${maressaPortfolioImgSmall} 800w, ${maressaPortfolioImg} 1200w`
   };
 
   const maressaCaseStudy = [

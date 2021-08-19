@@ -24,7 +24,7 @@ const PortfolioAlice = () => {
     websiteName: 'www.alicedubin.com',
     websiteURL: 'https://alicedubin.com',
     img: alicePortfolioImg,
-    imgSrcSet: `${alicePortfolioImgSmall} 800w, ${alicePortfolio} 1200w`
+    imgSrcSet: `${alicePortfolioImgSmall} 800w, ${alicePortfolioImg} 1200w`
   };
 
   const aliceCaseStudy = [
