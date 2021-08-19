@@ -4,7 +4,7 @@ module.exports = {
     title: 'Meredith Grubbs | Web Designer & Developer',
     description:
       'Meredith Grubbs is a freelance web designer and developer based in Durango, CO. She specializes in designing websites for small businesses.',
-    image: 'src/images/hero-small.jpg'
+    image: '/src/images/hero-small.jpg'
   },
   plugins: [
     {
