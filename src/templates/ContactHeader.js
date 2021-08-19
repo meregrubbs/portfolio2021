@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import megLogo from '../images/meg-logo-1.png';
+import megLogo from '../images/meg-logo.svg';
 import '../css/typography.css';
 
 // markup
