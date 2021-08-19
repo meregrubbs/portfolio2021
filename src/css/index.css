@@ -96,6 +96,29 @@ textarea:focus {
   outline: 3px solid var(--text-color-pop);
 }
 
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 3rem;
+}
+.not-found h1 {
+  margin-bottom: 0.5rem;
+}
+.not-found .link {
+  font-family: 'HK Grotesk Bold', sans-serif;
+  font-size: var(--smaller-text-size);
+  text-decoration: underline;
+  color: var(--text-color);
+  opacity: 70%;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+.not-found .link:hover {
+  color: var(--text-color-pop);
+  opacity: 100%;
+}
+
 /* buttons */
 .button {
   position: relative;

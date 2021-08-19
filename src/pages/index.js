@@ -1,5 +1,5 @@
 import * as React from 'react';
-import SEO from '../templates/SEO';
+import Seo from '../templates/Seo';
 import Hero from '../templates/Hero';
 import Portfolio from '../templates/Portfolio';
 import Testimonials from '../templates/ClientTestimonials';
@@ -9,7 +9,7 @@ import '../css/index.css';
 const IndexPage = () => {
   return (
     <main>
-      <SEO />
+      <Seo />
       <Hero />
       <Portfolio />
       <Testimonials />
