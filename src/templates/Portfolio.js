@@ -1,7 +1,9 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
 import alicePortfolio from '../images/portfolio-images/portfolio-alice.png';
+import alicePortfolioSmall from '../images/portfolio-images/portfolio-alice-small.png';
 import maressaPortfolio from '../images/portfolio-images/portfolio-maressa.png';
+import maressaPortfolioSmall from '../images/portfolio-images/portfolio-maressa-small.png';
 import arrowBlack from '../images/icon-downarrow-black.svg';
 
 // markup
@@ -15,6 +17,7 @@ const Portfolio = () => {
         'An online portfolio showcasing professional journalism work',
       tags: 'UI/UX design • Front-end development • Custom Wordpress theme',
       img: alicePortfolio,
+      imgSrcSet: `${alicePortfolioSmall}, ${alicePortfolio} 1.5x`,
       linkTo: '/portfolio/alice'
     },
     {
@@ -24,6 +27,7 @@ const Portfolio = () => {
         'A professional portfolio for a freelance journalist, editor, author and astrologer',
       tags: 'UI/UX design • Front-end development • Custom Wordpress theme',
       img: maressaPortfolio,
+      imgSrcSet: `${maressaPortfolioSmall}, ${maressaPortfolio} 1.5x`,
       linkTo: '/portfolio/maressa'
     }
   ];
@@ -41,7 +45,7 @@ const Portfolio = () => {
           </Link>
 
           <div className='portfolio-img'>
-            <img src={sample.img} alt='' />
+            <img srcset={imgSrcSet} src={sample.img} alt='' />
           </div>
 
           <Link to={sample.linkTo}>

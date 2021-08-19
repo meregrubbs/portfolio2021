@@ -30,7 +30,7 @@ const PortfolioTemplate = props => {
           </a>
         </div>
         <div className='portfolio-page-intro-img'>
-          <img src={data.img} alt='' />
+          <img srcset={data.imgSrcSet} src={data.img} alt='' />
         </div>
       </div>
 
