@@ -3,10 +3,10 @@ import PortfolioTemplate from '../../templates/PortfolioTemplate';
 import '../../css/index.css';
 // images
 import alicePortfolioImg from '../../images/portfolio-images/portfolio-alice.jpg';
-import casestudyMainPortfolioPageImg from '../../images/case-study-images/alice/alice-main-portfolio-page.png';
-import casestudyJournalism from '../../images/case-study-images/alice/alice-journalism.png';
-import casestudyContentMarketing from '../../images/case-study-images/alice/alice-content-marketing.png';
-import casestudyClientCollage from '../../images/case-study-images/alice/alice-client-collage.png';
+import casestudyMainPortfolioPageImg from '../../images/case-study-images/alice/alice-main-portfolio-page.jpg';
+import casestudyJournalism from '../../images/case-study-images/alice/alice-journalism.jpg';
+import casestudyContentMarketing from '../../images/case-study-images/alice/alice-content-marketing.jpg';
+import casestudyClientCollage from '../../images/case-study-images/alice/alice-client-collage.jpg';
 
 // markup
 const PortfolioAlice = () => {
