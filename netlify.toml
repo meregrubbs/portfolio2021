@@ -17,4 +17,3 @@ package = "@netlify/plugin-gatsby"
     no-cache,
     no-store,
     must-revalidate'''
-    content-encoding = "gzip"
