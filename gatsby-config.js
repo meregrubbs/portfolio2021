@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://www.yourdomain.tld',
+    siteUrl: 'https://www.meredithgrubbs.com',
     title: 'Meredith Grubbs | Web Designer & Developer',
     description:
-      'Meredith Grubbs is a freelance web designer and developer based in Durango, CO. She specializes in designing websites for small businesses.'
+      'Meredith Grubbs is a freelance web designer and developer based in Durango, CO. She specializes in designing websites for small businesses.',
+    image: '/images/hero-small.jpg'
   },
   plugins: [
     {
