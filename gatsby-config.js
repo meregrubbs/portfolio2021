@@ -18,7 +18,7 @@ module.exports = {
         name: 'gatsby-starter-default',
         short_name: 'starter',
         start_url: '/',
-        icon: 'src/images/meg-logo-1.png'
+        icon: 'src/images/meg-logo.svg'
       }
     }
   ]
