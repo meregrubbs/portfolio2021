@@ -42,13 +42,13 @@ const Seo = ({ title, description, image }) => {
 
 export default Seo;
 
-SEO.propTypes = {
+Seo.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   image: PropTypes.string
 };
 
-SEO.defaultProps = {
+Seo.defaultProps = {
   title: null,
   description: null,
   image: null
