@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import alicePortfolio from '../images/portfolio-images/portfolio-alice.png';
-import maressaPortfolio from '../images/portfolio-images/portfolio-maressa.png';
+import alicePortfolio from '../images/portfolio-images/portfolio-alice.jpg';
+import maressaPortfolio from '../images/portfolio-images/portfolio-maressa.jpg';
 import arrowBlack from '../images/icon-downarrow-black.png';
 
 // markup
