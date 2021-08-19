@@ -1,4 +1,5 @@
 import * as React from 'react';
+import SEO from '../../templates/SEO';
 import PortfolioTemplate from '../../templates/PortfolioTemplate';
 import '../../css/index.css';
 // images
@@ -90,7 +91,7 @@ const PortfolioAlice = () => {
 
   return (
     <main className='portfolio-page'>
-      <title>Meredith Grubbs | Web Designer and Developer</title>
+      <SEO />
       <PortfolioTemplate
         data={alicePortfolioIntroData}
         casestudy={aliceCaseStudy}

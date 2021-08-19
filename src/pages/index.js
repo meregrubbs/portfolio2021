@@ -1,4 +1,5 @@
 import * as React from 'react';
+import SEO from '../templates/SEO';
 import Hero from '../templates/Hero';
 import Portfolio from '../templates/Portfolio';
 import Testimonials from '../templates/ClientTestimonials';
@@ -8,7 +9,7 @@ import '../css/index.css';
 const IndexPage = () => {
   return (
     <main>
-      <title>Meredith Grubbs | Web Designer and Developer</title>
+      <SEO />
       <Hero />
       <Portfolio />
       <Testimonials />
