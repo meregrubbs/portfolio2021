@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://www.meredithgrubbs.com',
+    url: 'https://www.meredithgrubbs.com',
     title: 'Meredith Grubbs | Web Designer & Developer',
     description:
       'Meredith Grubbs is a freelance web designer and developer based in Durango, CO. She specializes in designing websites for small businesses.',
