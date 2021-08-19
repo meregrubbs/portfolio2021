@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Header from './Header';
-import downArrow from '../images/icon-downarrow.png';
+import downArrow from '../images/icon-downarrow.svg';
 
 const Hero = () => {
   return (

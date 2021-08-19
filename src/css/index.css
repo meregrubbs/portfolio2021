@@ -155,7 +155,7 @@ textarea:focus {
   left: -0.65em;
   width: 0.6em;
   height: 0.6em;
-  background-image: url('../images//triangle-motif.png');
+  background-image: url('../images//triangle-motif.svg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

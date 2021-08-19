@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as emailjs from 'emailjs-com';
 import ContactHeader from '../templates/ContactHeader';
 import Footer from '../templates/Footer';
-import checkmark from '../images/checkmark.png';
+import checkmark from '../images/checkmark.svg';
 import '../css/index.css';
 
 // markup
