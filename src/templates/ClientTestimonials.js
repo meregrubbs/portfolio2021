@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import aliceImage from '../images/testimonial-images/alice.png';
-import maressaImage from '../images/testimonial-images/maressa.png';
-import emmieImage from '../images/testimonial-images/emmie.png';
+import aliceImage from '../images/testimonial-images/alice.jpg';
+import maressaImage from '../images/testimonial-images/maressa.jpg';
+import emmieImage from '../images/testimonial-images/emmie.jpg';
 
 // markup
 const ClientTestimonials = () => {
