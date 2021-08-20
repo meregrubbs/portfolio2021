@@ -36,6 +36,10 @@ const SearchEngineOps = ({ title, description, image }) => {
       )}
 
       {seo.image && <meta property='og:image' content={seo.image} />}
+
+      <meta name='twitter:title' content={seo.title} />
+      <meta name='twitter:desctiption' content={seo.description} />
+      <meta name='twitter:card' content={seo.image} />
     </Helmet>
   );
 };
