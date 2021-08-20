@@ -23,7 +23,7 @@ const SearchEngineOps = ({ title, description, image }) => {
   };
 
   return (
-    <Helmet title={seo.title}>
+    <Helmet title={seo.title} htmlAttributes={{ lang: 'en' }}>
       <meta name='description' content={seo.description} />
       <meta name='image' content={seo.image} />
 
