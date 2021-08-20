@@ -18,7 +18,7 @@ const Hero = () => {
           </span>
         </p>
         <div className='hero-scroll'>
-          <h3>View My Work</h3>
+          <p>View My Work</p>
           <img src={downArrow} alt='' />
         </div>
       </div>
