@@ -48,8 +48,7 @@ const Portfolio = () => {
             <img
               srcset={sample.imgSrcSet}
               src={sample.img}
-              alt='image of design work for '
-              {...sample.title}
+              alt={'image of design work for ' + sample.title}
             />
           </div>
 
