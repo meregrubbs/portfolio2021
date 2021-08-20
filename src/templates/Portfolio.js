@@ -54,7 +54,7 @@ const Portfolio = () => {
 
           <Link to={sample.linkTo}>
             <div className='case-study-link'>
-              <span>View case study for {sample.title}</span>
+              <span>{'View case study for ' + sample.title}</span>
               <div className='case-study-arrow'>
                 <img
                   src={arrowBlack}
