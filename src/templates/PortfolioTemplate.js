@@ -33,8 +33,7 @@ const PortfolioTemplate = props => {
           <img
             srcset={data.imgSrcSet}
             src={data.img}
-            alt='image of design work for '
-            {...data.title}
+            alt={'image of design work for ' + data.title}
           />
         </div>
       </div>

@@ -58,8 +58,7 @@ const Portfolio = () => {
               <div className='case-study-arrow'>
                 <img
                   src={arrowBlack}
-                  alt='click to view case study for '
-                  {...sample.title}
+                  alt={'click to view case study for ' + sample.title}
                 />
               </div>
             </div>
