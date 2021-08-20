@@ -21,6 +21,14 @@ const Footer = () => {
         >
           GitHub
         </a>
+        <span> • </span>
+        <a
+          href='https://twitter.com/MeredithGrubbs'
+          target='_blank'
+          rel='noreferrer'
+        >
+          Twitter
+        </a>
       </div>
     </section>
   );
