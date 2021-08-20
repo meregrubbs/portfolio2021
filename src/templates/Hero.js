@@ -19,7 +19,7 @@ const Hero = () => {
         </p>
         <div className='hero-scroll'>
           <p>View My Work</p>
-          <img src={downArrow} alt='' />
+          <img src={downArrow} alt='scroll down to view design work' />
         </div>
       </div>
     </div>

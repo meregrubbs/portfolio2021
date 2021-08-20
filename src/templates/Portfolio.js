@@ -45,14 +45,23 @@ const Portfolio = () => {
           </Link>
 
           <div className='portfolio-img'>
-            <img srcset={sample.imgSrcSet} src={sample.img} alt='' />
+            <img
+              srcset={sample.imgSrcSet}
+              src={sample.img}
+              alt='image of design work for '
+              {...sample.title}
+            />
           </div>
 
           <Link to={sample.linkTo}>
             <div className='case-study-link'>
               <span>View case study for {sample.title}</span>
               <div className='case-study-arrow'>
-                <img src={arrowBlack} alt='' />
+                <img
+                  src={arrowBlack}
+                  alt='click to view case study for '
+                  {...sample.title}
+                />
               </div>
             </div>
           </Link>
