@@ -9,3 +9,15 @@
   src: url('../fonts/HKGrotesk-Bold.otf');
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'HK Grotesk Regular';
+  src: url('../fonts/HKGrotesk-Regular.otf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HK Grotesk Italic';
+  src: url('../fonts/HKGrotesk-Italic.otf');
+  font-display: swap;
+}

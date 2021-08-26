@@ -1,6 +1,6 @@
 /* fonts */
 @import './typography.css';
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Public+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://use.typekit.net/byk3ckw.css');
 
 /* variables */
 :root {
@@ -9,7 +9,7 @@
   --yellow: #ffaa0b;
   --linear-gradient: linear-gradient(345deg, #b31aff, #ff006e, #ffaa0b);
   --smaller-text-size: 0.8em;
-  --IBM-uppercase-letter-spacing: 0.9px;
+  --uppercase-letter-spacing: 0.7px;
   --text-color: #11001a;
   --text-color-pop: #8800cc;
   --section-margin-top: 9.333rem;
@@ -23,7 +23,7 @@
 html {
   box-sizing: border-box;
   overflow-x: hidden;
-  font-family: 'Public Sans', sans-serif;
+  font-family: 'HK Grotesk Regular', sans-serif;
   font-size: 18px;
   line-height: 180%;
   margin: 0;
@@ -51,7 +51,8 @@ main {
 }
 
 h1 {
-  font-family: 'HK Grotesk Black', sans-serif;
+  font-family: 'ivypresto-text', serif;
+  font-weight: 700;
   font-size: 3rem;
   line-height: 100%;
   margin: 0;
@@ -59,7 +60,8 @@ h1 {
 }
 
 h2 {
-  font-family: 'HK Grotesk Bold', sans-serif;
+  font-family: 'ivypresto-text', serif;
+  font-weight: 600;
   font-size: 2rem;
   line-height: 120%;
   margin: 0;
@@ -106,7 +108,8 @@ textarea:focus {
   margin-bottom: 0.5rem;
 }
 .not-found .link {
-  font-family: 'HK Grotesk Bold', sans-serif;
+  font-family: 'ivypresto-text', serif;
+  font-weight: 600;
   font-size: var(--smaller-text-size);
   text-decoration: underline;
   color: var(--text-color);
@@ -247,7 +250,7 @@ nav {
   height: 3.333rem;
 }
 .header-email {
-  font-family: 'Public Sans', sans-serif;
+  font-family: 'HK Grotesk Regular', sans-serif;
   font-weight: bold;
   opacity: 80%;
   transition: all 0.2s;
@@ -283,6 +286,7 @@ nav {
 }
 .hero-scroll p {
   color: white;
+  font-family: 'HK Grotesk Italic', sans-serif;
   font-style: italic;
   font-weight: 400;
   font-size: var(--smaller-text-size);
@@ -327,12 +331,12 @@ nav {
   cursor: pointer;
 }
 .portfolio-text .label {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 500;
+  font-family: 'HK Grotesk Bold', sans-serif;
   font-size: var(--smaller-text-size);
-  letter-spacing: 0.9px;
+  letter-spacing: var(--uppercase-letter-spacing);
   text-transform: uppercase;
   color: var(--text-color-pop);
+  opacity: 80%;
   margin-bottom: -0.25em;
 }
 .portfolio-text .title {
@@ -358,6 +362,7 @@ nav {
 }
 .portfolio-text .tags {
   font-size: var(--smaller-text-size);
+  font-family: 'HK Grotesk Italic', sans-serif;
   font-style: italic;
   opacity: 60%;
   margin-top: 1rem;
@@ -381,7 +386,8 @@ nav {
   cursor: pointer;
 }
 .case-study-link span {
-  font-family: 'HK Grotesk Bold', sans-serif;
+  font-family: 'ivypresto-text', serif;
+  font-weight: 600;
 }
 .case-study-arrow {
   display: flex;
@@ -440,6 +446,7 @@ nav {
   max-width: 30rem;
 }
 .testimonial-text .text {
+  font-family: 'HK Grotesk Italic', sans-serif;
   font-style: italic;
 }
 .testimonial-text .name {
@@ -494,10 +501,11 @@ nav {
   margin-bottom: 2rem;
 }
 .portfolio-page-intro-text h3 {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 500;
-  letter-spacing: var(--IBM-uppercase-letter-spacing);
+  font-family: 'HK Grotesk Regular', sans-serif;
+  font-size: var(--smaller-text-size);
+  letter-spacing: var(--uppercase-letter-spacing);
   text-transform: uppercase;
+  opacity: 90%;
   color: var(--text-color-pop);
 }
 .portfolio-page-intro-text .service {
@@ -539,10 +547,9 @@ nav {
   width: fit-content;
   background-color: var(--background-color-pop);
   border-radius: 0.667rem;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'HK Grotesk Bold', sans-serif;
   font-size: var(--smaller-text-size);
-  font-weight: 500;
-  letter-spacing: var(--IBM-uppercase-letter-spacing);
+  opacity: 80%;
   padding: 0.3em 0.667em;
 }
 .casestudy-image {
@@ -584,9 +591,11 @@ nav {
   margin-top: var(--sub-item-margin-top);
 }
 .contact-form label {
+  font-family: 'HK Grotesk Bold', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 0.45px;
+  letter-spacing: var(--uppercase-letter-spacing);
+  opacity: 80%;
   margin-top: var(--sub-item-margin-top);
 }
 .contact-form textarea {
@@ -598,7 +607,7 @@ nav {
   background-color: var(--background-color-grey);
   border: none;
   border-radius: 4px;
-  font-family: 'Public Sans', sans-serif;
+  font-family: 'HK Grotesk Regular', sans-serif;
   font-size: 1rem;
   color: var(--text-color);
   box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.2);
