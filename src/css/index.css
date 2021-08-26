@@ -233,6 +233,17 @@ textarea:focus {
   background-image: url('../images/hero-large.jpg');
   background-position: top;
   background-size: cover;
+  mix-blend-mode: multiply;
+  z-index: -2;
+}
+.hero:after {
+  content: '';
+  position: absolute;
+  top: -2.333rem;
+  right: -4.8rem;
+  bottom: 0;
+  left: -4.8rem;
+  background-color: rgba(0, 0, 0, 0.08);
   z-index: -2;
 }
 
@@ -268,11 +279,11 @@ nav {
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
   margin-top: 10rem;
 }
-.hero-text p {
+.hero-text > p {
   max-width: 29rem;
   opacity: 90%;
   margin-top: 1.333rem;
-  margin-bottom: 12rem;
+  margin-bottom: 8rem;
 }
 
 /* Hero Scroll */
@@ -292,12 +303,11 @@ nav {
   font-size: var(--smaller-text-size);
   text-transform: lowercase;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
-  opacity: 90%;
   margin-bottom: 0.1rem;
 }
 .hero-scroll img {
-  width: 15px;
-  height: 18px;
+  width: 13px;
+  height: 16px;
   animation: arrow 1s linear infinite alternate;
 }
 
@@ -682,7 +692,7 @@ nav {
   .hero-text {
     margin-top: 12rem;
   }
-  .hero-text p {
+  .hero-text > p {
     margin-top: 1rem;
     margin-bottom: 2rem;
   }
@@ -778,10 +788,10 @@ nav {
     margin-top: 8rem;
   }
   .hero-text h1 {
-    line-height: 134%;
+    line-height: 143%;
   }
   .hero-text p span {
-    padding: 0.27rem;
+    padding: 0.219rem;
   }
   .hero-text span {
     background-color: rgba(0, 0, 0, 0.5);
