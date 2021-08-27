@@ -11,7 +11,7 @@ const Portfolio = () => {
   // data
   const sampleWork = [
     {
-      label: 'Case Study',
+      label: 'Responsive Website',
       title: 'Alice Dubin Media',
       description:
         'An online portfolio showcasing professional journalism work',
@@ -21,7 +21,7 @@ const Portfolio = () => {
       linkTo: '/portfolio/alice'
     },
     {
-      label: 'Case Study',
+      label: 'Responsive Website',
       title: 'Maressa Brown',
       description:
         'A professional portfolio for a freelance journalist, editor, author and astrologer',
