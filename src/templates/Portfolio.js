@@ -34,7 +34,7 @@ const Portfolio = () => {
 
   return (
     <section className='portfolio'>
-      <h1 className='section-title'>Portfolio</h1>
+      <h1 className='section-title'>Design Work</h1>
       {sampleWork.map(sample => (
         <div className='portfolio-item' key={sample.title}>
           <Link to={sample.linkTo} className='portfolio-text'>
