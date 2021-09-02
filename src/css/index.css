@@ -230,7 +230,7 @@ textarea:focus {
   right: -4.8rem;
   bottom: 0;
   left: -4.8rem;
-  background-image: url('../images/hero-large.jpg');
+  background-image: url('../images/hero-large.png');
   background-position: top;
   background-size: cover;
   mix-blend-mode: multiply;
@@ -709,6 +709,7 @@ nav {
     font-size: var(--smaller-text-size);
   }
   .hero:before {
+    background-image: url('../images/hero-med.png');
     background-position: 50%;
   }
   .hero-text {
@@ -775,12 +776,10 @@ nav {
   }
   .hero:before {
     height: 28rem;
-    background-image: url('../images/hero-med.jpg');
     background-position: 80%;
   }
   .hero:before {
     background-position: center;
-    margin-top: -2rem;
     padding-bottom: 5rem;
   }
   .hero-text {
@@ -816,7 +815,7 @@ nav {
 
 @media (max-width: 419px) {
   .hero:before {
-    background-image: url('../images/hero-small.jpg');
+    background-image: url('../images/hero-small.png');
   }
   .hero-text {
     margin-top: 6rem;
