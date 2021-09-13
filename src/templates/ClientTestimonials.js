@@ -37,7 +37,7 @@ const ClientTestimonials = () => {
       {testimonials.map(testimonial => (
         <div className='single-testimonial' key={testimonial.name}>
           <div className='testimonial-img'>
-            <img src={testimonial.img} alt={testimonial.name} />
+            <img src={testimonial.img} alt={testimonial.name} loading='lazy' />
           </div>
 
           <div className='testimonial-text'>

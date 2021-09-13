@@ -9,6 +9,7 @@ exports.components = {
   "component---src-pages-contact-js": preferDefault(require("/Users/meredithgrubbs/Desktop/Portfolio/portfolio.July21/meg-portfolio-2021/src/pages/contact.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/meredithgrubbs/Desktop/Portfolio/portfolio.July21/meg-portfolio-2021/src/pages/index.js")),
   "component---src-pages-portfolio-alice-js": preferDefault(require("/Users/meredithgrubbs/Desktop/Portfolio/portfolio.July21/meg-portfolio-2021/src/pages/portfolio/alice.js")),
+  "component---src-pages-portfolio-alice-substack-js": preferDefault(require("/Users/meredithgrubbs/Desktop/Portfolio/portfolio.July21/meg-portfolio-2021/src/pages/portfolio/alice-substack.js")),
   "component---src-pages-portfolio-maressa-js": preferDefault(require("/Users/meredithgrubbs/Desktop/Portfolio/portfolio.July21/meg-portfolio-2021/src/pages/portfolio/maressa.js"))
 }
 

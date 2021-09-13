@@ -18,7 +18,9 @@ const PortfolioTemplate = props => {
           <p className='subtitle'>{data.subtitle}</p>
           <h3>Services</h3>
           {data.services.map(service => (
-            <p className='service'>{service}</p>
+            <p className='service' key={service}>
+              {service}
+            </p>
           ))}
           <a
             className='website'
@@ -31,7 +33,7 @@ const PortfolioTemplate = props => {
         </div>
         <div className='portfolio-page-intro-img'>
           <img
-            srcset={data.imgSrcSet}
+            srcSet={data.imgSrcSet}
             src={data.img}
             alt={'image of design work for ' + data.title}
           />
@@ -40,16 +42,21 @@ const PortfolioTemplate = props => {
 
       <div className='case-study'>
         {casestudy.map(study => (
-          <div className='casestudy-section'>
+          <div className='casestudy-section' key={study.heading}>
             <h2>{study.heading}</h2>
             {study.paragraphs.map(paragraph => (
-              <p>{paragraph}</p>
+              <p key={paragraph}>{paragraph}</p>
             ))}
             {study.images.map(image => (
-              <div className='image-group'>
+              <div className='image-group' key={image.pic}>
                 <h3 className='caption'>{image.caption}</h3>
                 <div className='casestudy-image'>
-                  <img src={image.pic} alt={image.caption} />
+                  <img
+                    srcSet={image.srcset}
+                    src={image.pic}
+                    alt={image.caption}
+                    loading='lazy'
+                  />
                 </div>
               </div>
             ))}

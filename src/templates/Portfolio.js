@@ -2,6 +2,8 @@ import * as React from 'react';
 import { Link } from 'gatsby';
 import alicePortfolio from '../images/portfolio-images/portfolio-alice.png';
 import alicePortfolioSmall from '../images/portfolio-images/portfolio-alice-small.png';
+import aliceSubstack from '../images/portfolio-images/alice-substack.png';
+import aliceSubstackSmall from '../images/portfolio-images/alice-substack-small.png';
 import maressaPortfolio from '../images/portfolio-images/portfolio-maressa.png';
 import maressaPortfolioSmall from '../images/portfolio-images/portfolio-maressa-small.png';
 import arrowBlack from '../images/icon-downarrow-black.svg';
@@ -19,6 +21,16 @@ const Portfolio = () => {
       img: alicePortfolio,
       imgSrcSet: `${alicePortfolioSmall} 800w, ${alicePortfolio} 1200w`,
       linkTo: '/portfolio/alice'
+    },
+    {
+      label: 'Visual Design',
+      title: 'Substack Graphic Design',
+      description:
+        'Visual design for a client using Substack – an online newsletter subscription website',
+      tags: 'UI design • Graphic design',
+      img: aliceSubstack,
+      imgSrcSet: `${aliceSubstackSmall} 800w, ${aliceSubstack} 1200w`,
+      linkTo: '/portfolio/alice-substack'
     },
     {
       label: 'Responsive Website',
@@ -49,6 +61,7 @@ const Portfolio = () => {
               srcset={sample.imgSrcSet}
               src={sample.img}
               alt={'image of design work for ' + sample.title}
+              loading='lazy'
             />
           </div>
 
@@ -59,6 +72,7 @@ const Portfolio = () => {
                 <img
                   src={arrowBlack}
                   alt={'click to view case study for ' + sample.title}
+                  loading='lazy'
                 />
               </div>
             </div>
