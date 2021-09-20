@@ -4,6 +4,8 @@ import alicePortfolio from '../images/portfolio-images/portfolio-alice.png';
 import alicePortfolioSmall from '../images/portfolio-images/portfolio-alice-small.png';
 import aliceSubstack from '../images/portfolio-images/alice-substack.png';
 import aliceSubstackSmall from '../images/portfolio-images/alice-substack-small.png';
+import fmFlyer from '../images/portfolio-images/fm-flyer-front.png';
+import fmFlyerSmall from '../images/portfolio-images/fm-flyer-front-small.png';
 import maressaPortfolio from '../images/portfolio-images/portfolio-maressa.png';
 import maressaPortfolioSmall from '../images/portfolio-images/portfolio-maressa-small.png';
 import arrowBlack from '../images/icon-downarrow-black.svg';
@@ -26,11 +28,21 @@ const Portfolio = () => {
       label: 'Visual Design',
       title: 'Substack Graphic Design',
       description:
-        'Visual design for a client using Substack – an online newsletter subscription website',
+        'Visual design for a client using Substack, an online newsletter subscription website',
       tags: 'UI design • Graphic design',
       img: aliceSubstack,
       imgSrcSet: `${aliceSubstackSmall} 800w, ${aliceSubstack} 1200w`,
       linkTo: '/portfolio/alice-substack'
+    },
+    {
+      label: 'Visual Design',
+      title: 'Frost Methane Flyer',
+      description:
+        'Flyer design for Frost Methane — used as an informational visual at a conference to introduce the company',
+      tags: 'UI design • Graphic design',
+      img: fmFlyer,
+      imgSrcSet: `${fmFlyerSmall} 800w, ${fmFlyer} 1200w`,
+      linkTo: '/portfolio/frost-methane'
     },
     {
       label: 'Responsive Website',
