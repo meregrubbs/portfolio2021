@@ -370,7 +370,7 @@ nav {
   z-index: -1;
   transition: opacity 0.3s ease;
 }
-.portfolio-text:hover .title:before {
+.portfolio-item:hover .title:before {
   opacity: 100%;
 }
 .portfolio-text .description {
@@ -387,16 +387,16 @@ nav {
 .portfolio-img {
   flex: 1;
   display: grid;
-  overflow: hidden;
-  max-height: 300px;
-  border-radius: 10px;
-  box-shadow: var(--box-shadow);
+  cursor: pointer;
 }
 .portfolio-img img {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  max-height: 350px;
+  object-fit: cover;
   object-position: top;
+  border-radius: 10px;
+  filter: drop-shadow(0 4px 16px rgba(17, 0, 26, 0.05))
+    drop-shadow(0 0 4px rgba(17, 0, 26, 0.1));
 }
 /* Case Study Link */
 .case-study-link {
@@ -757,6 +757,10 @@ nav {
   }
   .portfolio-img {
     margin-top: 1rem;
+    width: 100%;
+  }
+  .portfolio-img img {
+    max-height: 500px;
   }
   .case-study-link {
     display: flex;

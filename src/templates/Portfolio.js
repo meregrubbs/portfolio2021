@@ -60,13 +60,13 @@ const Portfolio = () => {
     <section className='portfolio'>
       <h1 className='section-title'>Design Work</h1>
       {sampleWork.map(sample => (
-        <div className='portfolio-item' key={sample.title}>
-          <Link to={sample.linkTo} className='portfolio-text'>
+        <Link to={sample.linkTo} className='portfolio-item' key={sample.title}>
+          <div className='portfolio-text'>
             <p className='label'>{sample.label}:</p>
             <h2 className='title'>{sample.title}</h2>
             <p className='description'>{sample.description}</p>
             <p className='tags'>{sample.tags}</p>
-          </Link>
+          </div>
 
           <div className='portfolio-img'>
             <img
@@ -89,7 +89,7 @@ const Portfolio = () => {
               </div>
             </div>
           </Link>
-        </div>
+        </Link>
       ))}
     </section>
   );
