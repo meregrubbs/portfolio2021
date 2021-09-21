@@ -31,7 +31,7 @@ const PortfolioTemplate = props => {
             {data.websiteName}
           </a>
         </div>
-        <div className='portfolio-page-intro-img'>
+        <div className='portfolio-img'>
           <img
             srcSet={data.imgSrcSet}
             src={data.img}
