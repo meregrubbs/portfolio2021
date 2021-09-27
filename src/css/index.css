@@ -593,6 +593,35 @@ nav {
 
 /*  */
 /*  */
+/* Explorations Page */
+/*  */
+/*  */
+.explorations section {
+  margin-top: var(--single-item-margin-top);
+}
+.exploration {
+  margin-top: var(--single-item-margin-top);
+  display: flex;
+}
+.exploration:first-of-type {
+  margin-top: var(--first-item-margin-top);
+}
+.exploration-img {
+  margin-right: 2em;
+  width: 400px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+.exploration-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*  */
+/*  */
 /* Contact Page */
 /*  */
 /*  */

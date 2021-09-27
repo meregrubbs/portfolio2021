@@ -22,6 +22,14 @@ module.exports = {
         start_url: '/',
         icon: 'src/images/meg-logo.svg'
       }
+    },
+    {
+      resolve: 'gatsby-source-strapi',
+      options: {
+        apiURL: 'http://localhost:1337',
+        collectionTypes: ['explorations', 'testimonials', 'categories'],
+        queryLimit: 1000
+      }
     }
   ]
 };

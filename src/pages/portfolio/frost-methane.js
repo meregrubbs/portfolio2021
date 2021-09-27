@@ -5,8 +5,6 @@ import '../../css/index.css';
 // images
 import fmFlyerFront from '../../images/portfolio-images/fm-flyer-front.png';
 import fmFlyerFrontSmall from '../../images/portfolio-images/fm-flyer-front-small.png';
-import fmFlyerBack from '../../images/case-study-images/frost-methane/fm-flyer-back.png';
-import fmFlyerBackSmall from '../../images/case-study-images/frost-methane/fm-flyer-back-small.png';
 
 // markup
 const FrostMethane = () => {
@@ -38,11 +36,6 @@ const FrostMethane = () => {
           caption: 'Front of flyer',
           pic: fmFlyerFront,
           srcset: `${fmFlyerFrontSmall} 800w, ${fmFlyerFront} 1200w`
-        },
-        {
-          caption: 'Back of flyer',
-          pic: fmFlyerBack,
-          srcset: `${fmFlyerBackSmall} 800w, ${fmFlyerBack} 1200w`
         }
       ]
     }
