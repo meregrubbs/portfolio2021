@@ -33,7 +33,6 @@ const FrostMethane = () => {
       paragraphs: [],
       images: [
         {
-          caption: 'Frost Methane Flyer',
           pic: fmFlyerFront,
           srcset: `${fmFlyerFrontSmall} 800w, ${fmFlyerFront} 1200w`
         }
