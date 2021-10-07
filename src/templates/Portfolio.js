@@ -77,16 +77,14 @@ const Portfolio = () => {
             />
           </div>
 
-          <Link to={sample.linkTo}>
-            <div className='case-study-link'>
-              <span>View case study</span>
-              <div className='case-study-arrow'>
-                <img
-                  src={arrowBlack}
-                  alt={'click to view case study for ' + sample.title}
-                  loading='lazy'
-                />
-              </div>
+          <Link to={sample.linkTo} className='case-study-link'>
+            <span>View case study</span>
+            <div className='case-study-arrow'>
+              <img
+                src={arrowBlack}
+                alt={'click to view case study for ' + sample.title}
+                loading='lazy'
+              />
             </div>
           </Link>
         </Link>
