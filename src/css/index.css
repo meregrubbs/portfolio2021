@@ -47,9 +47,9 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
-  padding: 1.333rem 4rem;
+  padding: 1.333rem 6rem;
 }
 
 h1 {
@@ -229,9 +229,9 @@ textarea:focus {
   content: '';
   position: absolute;
   top: -2.333rem;
-  right: -4.8rem;
+  right: -6rem;
   bottom: 0;
-  left: -4.8rem;
+  left: -6rem;
   background-image: url('../images/hero-large.png');
   background-position: top;
   background-size: cover;
@@ -242,9 +242,9 @@ textarea:focus {
   content: '';
   position: absolute;
   top: -2.333rem;
-  right: -4.8rem;
+  right: -6rem;
   bottom: 0;
-  left: -4.8rem;
+  left: -6rem;
   background-color: rgba(0, 0, 0, 0.08);
   z-index: -2;
 }
@@ -295,7 +295,7 @@ nav {
   align-items: center;
   width: fit-content;
   opacity: 95%;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 .hero-scroll p {
   color: white;
