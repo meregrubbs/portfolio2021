@@ -329,13 +329,15 @@ nav {
   margin-top: var(--section-margin-top);
 }
 .portfolio-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-top: var(--single-item-margin-top);
 }
 .portfolio-item:first-of-type {
   margin-top: var(--first-item-margin-top);
+}
+.portfolio-item-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Portfolio Text */
@@ -401,8 +403,7 @@ nav {
 /* Case Study Link */
 .case-study-link {
   display: none;
-  align-items: center;
-  justify-content: center;
+  width: fit-content;
   position: relative;
   color: black;
   margin-top: 2rem;
@@ -763,9 +764,11 @@ nav {
     margin-top: var(--single-item-margin-top);
   }
   .portfolio-item {
+    margin-top: var(--mobile-single-item-margin-top);
+  }
+  .portfolio-item-link {
     flex-direction: column;
     align-items: flex-start;
-    margin-top: var(--mobile-single-item-margin-top);
   }
   .portfolio-text {
     margin-bottom: 1rem;

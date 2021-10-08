@@ -60,22 +60,28 @@ const Portfolio = () => {
     <section className='portfolio'>
       <h1 className='section-title'>Design Work</h1>
       {sampleWork.map(sample => (
-        <Link to={sample.linkTo} className='portfolio-item' key={sample.title}>
-          <div className='portfolio-text'>
-            <p className='label'>{sample.label}:</p>
-            <h2 className='title'>{sample.title}</h2>
-            <p className='description'>{sample.description}</p>
-            <p className='tags'>{sample.tags}</p>
-          </div>
+        <div className='portfolio-item'>
+          <Link
+            to={sample.linkTo}
+            key={sample.title}
+            className='portfolio-item-link'
+          >
+            <div className='portfolio-text'>
+              <p className='label'>{sample.label}:</p>
+              <h2 className='title'>{sample.title}</h2>
+              <p className='description'>{sample.description}</p>
+              <p className='tags'>{sample.tags}</p>
+            </div>
 
-          <div className='portfolio-img'>
-            <img
-              srcset={sample.imgSrcSet}
-              src={sample.img}
-              alt={'image of design work for ' + sample.title}
-              loading='lazy'
-            />
-          </div>
+            <div className='portfolio-img'>
+              <img
+                srcset={sample.imgSrcSet}
+                src={sample.img}
+                alt={'image of design work for ' + sample.title}
+                loading='lazy'
+              />
+            </div>
+          </Link>
 
           <Link to={sample.linkTo} className='case-study-link'>
             <span>View case study</span>
@@ -87,7 +93,7 @@ const Portfolio = () => {
               />
             </div>
           </Link>
-        </Link>
+        </div>
       ))}
     </section>
   );
